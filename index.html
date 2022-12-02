@@ -67,7 +67,7 @@
       border-radius: 25px;
       background-color: red;
     }
-    .circle {
+    .player .progress-bar .circle {
       height: 8px;
       width: 8px;
       background-color: red;
@@ -79,6 +79,16 @@
       display: inline-block;
       margin-left: -8px;
       margin-top: -4px;
+      opacity: 0;
+      transition-property: opacity;
+      transition-duration: .3s;
+      transition-timing-function: ease-in;
+    }
+    .player .progress-bar:hover .circle {
+      opacity: 1;
+      transition-property: opacity;
+      transition-duration: .3s;
+      transition-timing-function: ease-out;
     }
   </style>
 </head>
