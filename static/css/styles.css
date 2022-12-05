@@ -29,13 +29,14 @@
 .player .bottom-controls .timer-controls {
   display: flex;
   flex-grow: 1;
+  align-items: center;
 }
 .player .timer-controls .time-digits {
   flex-grow: 1;
+  margin-left: 2px;
   color: white;
   font-family: 'Roboto', sans-serif;
-  margin-left: 2px;
-  margin-top: 4px;
+  font-size: 16px;
 }
 .player .timer-controls .progress-bar {
   flex-grow: 999;
